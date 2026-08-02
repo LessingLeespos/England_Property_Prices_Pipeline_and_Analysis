@@ -10,7 +10,7 @@ This project models historical transaction logs to evaluate long-term real estat
 **Property Dynamics:** Market share by property type and build condition.
 
 ## Data Engineering & Pipeline Orchestration
-The ingestion, transformation, and semantic refresh are fully orchestrated using an automated pipeline:
+The ingestion, transformation, and semantic refresh are fully orchestrated using an automated Fabric pipeline:
 
 ![Orchestration Pipeline](/captures/Orchestration_Pipeline.PNG)
 
