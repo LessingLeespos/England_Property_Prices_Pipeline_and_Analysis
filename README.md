@@ -1,7 +1,7 @@
 # England Historical Property Price Analytics (1995–Present)
 Automated Lakehouse pipeline ingesting UK Land Registry data using Medallion Fabric, PySpark transformations, and central error alerting and automated Power BI.
 
-![England Historical Property Price Dashboard](/captures/property_price_dashboard1.PNG)
+![England Historical Property Price Dashboard](/captures/property_price_dashboard11.PNG)
 
 ## Overview
 This project models historical transaction logs to evaluate long-term real estate price trends:
