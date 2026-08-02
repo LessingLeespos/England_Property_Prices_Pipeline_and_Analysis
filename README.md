@@ -1,7 +1,7 @@
 # England Historical Property Price Analytics (1995–Present)
 Automated Lakehouse pipeline ingesting UK Land Registry data using Medallion Fabric, PySpark transformations, and central error alerting and automated Power BI.
 
-![England Historical Property Price Dashboard](/screenshots/property_price_dashboard1.PNG)
+![England Historical Property Price Dashboard](/captures/property_price_dashboard1.PNG)
 
 ## Overview
 This project models historical transaction logs to evaluate long-term real estate price trends:
@@ -12,15 +12,15 @@ This project models historical transaction logs to evaluate long-term real estat
 ## Data Engineering & Pipeline Orchestration
 The ingestion, transformation, and semantic refresh are fully orchestrated using an automated pipeline:
 
-![Orchestration Pipeline](/screenshots/Orchestration_Pipeline.PNG)
+![Orchestration Pipeline](/captures/Orchestration_Pipeline.PNG)
 
 ## Data Architecture & Star Schema Model
 The underlying data model follows a **Star Schema** to ensure fast DAX performance and clear filter propagation across visuals.
 
-![Semantic Model Star Schema](/screenshots/Semantic_Model_EnPP.PNG)
+![Semantic Model Star Schema](/captures/Semantic_Model_EnPP.PNG)
 
 ## Analytical: Density, Supply Friction, and Market Segmentation
-![England Historical Property Price Dashboard](/screenshots/property_price_dashboard2.PNG)
+![England Historical Property Price Dashboard](/captures/property_price_dashboard2.PNG)
 
 The historical data from 1995 to 2026 illustrates how internal migration toward high opportunity economic hubs shapes property dynamics across English counties. Greater London (£69.79bn total value) and the surrounding Home Counties like Surrey (£46.93bn) and Hertfordshire (£31.52bn) show an extreme concentration of market capital and sustained price appreciation compared to northern regions like West Yorkshire (£15.40bn) or Lancashire (£13.99bn). This relentless demand driven by urban density highlights the natural efficiency of human agglomeration, concentrating energy consumption and economic output. However, as shown in the long-term trend line, while total transaction volume has experienced sharp cyclical drops, median prices have maintained a steady upward trajectory, proving that underlying regional demand consistently outpaces available property supply.
 
